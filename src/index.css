@@ -1,0 +1,111 @@
+/* src/index.css */
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background-color: #fff; /* White background */
+  color: #333; /* Dark text */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+/* Container */
+.container {
+  width: 100%;
+  max-width: 450px;
+  padding: 30px;
+  background-color: #f9f9f9; /* Light background for containers */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-weight: 500;
+  color: #333; /* Dark text for headings */
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 1.2rem;
+  color: #666; /* Lighter gray text for secondary info */
+  margin-bottom: 20px;
+}
+
+/* General Input Styles */
+input,
+button {
+  width: 97%;
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+input {
+  background-color: #fff; /* Light background for input fields */
+  border: 1px solid #ccc; /* Subtle border */
+  color: #333; /* Dark text for input */
+}
+
+input:focus {
+  outline: none;
+  border-color: #007bff; /* Blue border on focus */
+}
+
+button {
+  background-color: #007bff; /* Blue button */
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:active {
+  background-color: #003f7f;
+}
+
+/* Error Message */
+.error-message {
+  color: #e74c3c; /* Red for error */
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+}
+
+/* Success Message */
+.success-message {
+  color: #2ecc71; /* Green for success */
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+}
+
+/* Button Group */
+.button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
